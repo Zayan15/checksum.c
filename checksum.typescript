@@ -1,0 +1,34 @@
+Script started on Sat Jan 30 21:47:44 2021
+]0;zhm36105@ssh: ~[01;32mzhm36105@ssh[00m:[01;34m~[00m$ java check [Ksum <156~~~.[K[K[K[K[K[K6~~~~~[K[K[K[K[K[K[K[K<156~~~~~~[K[K[K[K[K[K[K6~~[K[K.txt
+Enter Non-Negative Integers Between 0 and 255: 
+Stored Checksum: 156, Computed Checksum: 156
+]0;zhm36105@ssh: ~[01;32mzhm36105@ssh[00m:[01;34m~[00m$ pushd ~steve?[K/comp122/checksum
+/home/users0/ccs/steve/comp122/checksum ~
+]0;zhm36105@ssh: /home/users0/ccs/steve/comp122/checksum[01;32mzhm36105@ssh[00m:[01;34m/home/users0/ccs/steve/comp122/checksum[00m$ time java checksum <16~~[K56~ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K<156~~~ ~~~~~~~[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K56~~~ ~~[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K6~[K.tx t
+Stored Checksum: 156, Computed Checksum: 156
+
+real	0m0.162s
+user	0m0.112s
+sys	0m0.036s
+]0;zhm36105@ssh: /home/users0/ccs/steve/comp122/checksum[01;32mzhm36105@ssh[00m:[01;34m/home/users0/ccs/steve/comp122/checksum[00m$ time ./checksum <156~~~[K[K[K[K 15[C[C6~~.[K[K[K[K.[K6~~~~[K[K[K[K.txt
+Stored Checksum: 156, Computed Checksum: 156
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+]0;zhm36105@ssh: /home/users0/ccs/steve/comp122/checksum[01;32mzhm36105@ssh[00m:[01;34m/home/users0/ccs/steve/comp122/checksum[00m$ popd
+~
+]0;zhm36105@ssh: ~[01;32mzhm36105@ssh[00m:[01;34m~[00m$ time java checksum <156~~~~~~~[K[K[K[K[K[K[K[K6~~.=[K[K[K[K[K6~.[K[K[K.[K6~.[K[K[K.[K6~~~~[K[K[K[K.txt
+Enter Non-Negative Integers Between 0 and 255: 
+Stored Checksum: 156, Computed Checksum: 156
+
+real	0m0.157s
+user	0m0.128s
+sys	0m0.024s
+]0;zhm36105@ssh: ~[01;32mzhm36105@ssh[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Sat Jan 30 21:51:12 2021
