@@ -1,0 +1,48 @@
+import java.util.Scanner;
+import java.io.FileNotFoundException;
+
+
+class checksum  
+{  
+
+  public static void main(String args[]) {
+    final int inputNumber=5;
+    final int max_int = 255;  // The maximum size for the input
+    int count = 10;           // The number of integers to read from stdin
+    int sum = 0;              // Note that the "sum" might exceed max_int
+    int checksum = 0;         // The value of the 6th input integer
+    int quotient;             // The result of evaluating the assignment:  quotient   = sum / (max_int + 1);
+    int remainder;            // The result of evaluating the assignment:  remainder  = sum % (max_int + 1 );
+    int complement;           // The result of evaluationg the assignment: complement = max_int - sum;
+
+    int input = 0;
+       Scanner stdin = new Scanner(System.in);
+      System.out.println("Enter Non-Negative Integers Between 0 and 255: ");
+       for(int countr = 0; countr < count; countr++)
+      {
+      do
+      {
+      input=stdin.nextInt();
+      if(input<0 || input>255){
+      System.out.println("input not in given range");
+      }
+     }
+     while(input<0 || input>255);
+     if(countr==inputNumber){
+     checksum=input;
+     input=0;
+     }  sum = sum + input;
+         }
+         quotient = sum / (max_int + 1);
+         remainder = sum % (max_int + 1);
+         sum = quotient + remainder;
+         complement = max_int - sum;
+  
+  
+  System.out.printf("Stored Checksum: %d, Computed Checksum: %d\n", checksum, complement);
+  if (checksum != complement ) {
+    System.err.printf("Error Detected!\n");  
+  }
+  }
+   
+}
