@@ -42,8 +42,9 @@ int main (int argc, char * argv[], char ** envp) {
 
          remainder = sum % (max_int + 1);
          sum = quotient + remainder;
+         }
          complement = max_int - sum;
-          }
+    
   
 
 
